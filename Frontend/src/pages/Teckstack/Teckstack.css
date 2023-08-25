@@ -1,0 +1,63 @@
+.techstack {
+    padding-left: 130px;
+    margin: 60px 0px;
+}
+
+.techstack hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.techstack h2 {
+    color: #138781;
+    font-weight: 700;
+}
+
+.techstack .card {
+    cursor: pointer;
+}
+
+.techstack .tech-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.techstack .card:hover {
+    background-color: #138781;
+    color: white;
+    border: none;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+/* darkmode  */
+#dark .darkcard {
+    background-color: black;
+    color: #138781;
+    border: 1px solid #138781;
+}
+
+#dark .techstack .card:hover {
+    background-color: #138781;
+    color: white;
+    border: none;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+@media (max-width:600px) {
+    .techstack {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .techstack hr {
+        width: 300px;
+    }
+
+
+}
